@@ -1,0 +1,16 @@
+
+/*Barra de navegación*/
+nav{
+    background-color: #bbc5af;
+}
+ul{
+    list-style: none;
+    padding: 1rem;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
+li a{    
+    color: black;
+    text-decoration: none;}
