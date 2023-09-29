@@ -3,23 +3,22 @@
 *{
 
     box-sizing: border-box;
-    font-family: 'AR One Sans', sans-serif;
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'AR One Sans', sans-serif;
 
 }
 h1{
-    font-size: 18px;
-    padding-left: 5rem;
+    font-size: 22px;
+    padding-left: 12rem;
     padding-bottom: 3rem;
 }
 nav{
-    background-color:#d8e8eb;/*#fcf2ff;*/
-    border-top: solid 1px#000000;
-    border-bottom: solid 3px#000000;  
+    background-color:#d8e8eb;/*;#fcf2ff;*/
+    border-top: solid 2px #3d403b;
+    border-bottom: solid 3px#3d403b;  
 }
 ul{
     list-style: none;
-    padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -28,7 +27,8 @@ ul{
 }
 li{
     margin: 5px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 li a{    
