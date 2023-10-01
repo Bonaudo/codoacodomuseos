@@ -3,14 +3,16 @@
 *{
 
     box-sizing: border-box;
+    margin:0px;
     font-family: 'AR One Sans', sans-serif;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 
 }
 h1{
-    font-size: 18px;
+    font-size: 22px;
     padding-left: 5rem;
     padding-bottom: 3rem;
+    padding-top:1rem;
 }
 nav{
     background-color:#d8e8eb;/*#fcf2ff;*/
@@ -26,9 +28,9 @@ ul{
     text-align: center;
 
 }
-li{
+nav > li{
     margin: 5px;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 li a{    
