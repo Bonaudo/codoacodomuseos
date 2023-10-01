@@ -3,29 +3,23 @@
 *{
 
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
     margin:0px;
     font-family: 'AR One Sans', sans-serif;
->>>>>>> ciencias
     font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-family: 'AR One Sans', sans-serif;
 
 }
 h1{
     font-size: 22px;
-<<<<<<< HEAD
     padding-left: 12rem;
-=======
-    padding-left: 5rem;
->>>>>>> ciencias
     padding-bottom: 3rem;
     padding-top:1rem;
+    border-top: solid 3px #3d403b;
 }
 nav{
-    background-color:#d8e8eb;/*;#fcf2ff;*/
+    background-color:#d8e8eb;
     border-top: solid 2px #3d403b;
     border-bottom: solid 3px#3d403b;  
+    padding: 20px;
 }
 ul{
     list-style: none;
@@ -35,14 +29,10 @@ ul{
     text-align: center;
 
 }
-nav > li{
-    margin: 5px;
-<<<<<<< HEAD
-    font-size: 18px;
-    font-weight: bold;
-=======
+nav li{
+    margin:5px;
     font-size: 20px;
->>>>>>> ciencias
+    
 }
 
 li a{    
