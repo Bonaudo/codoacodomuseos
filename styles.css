@@ -78,7 +78,7 @@ header img{
 
 /*Styles Artes*/
 
-.container{
+.containerarte{
 
 width: 100%;
 height: 100%;
@@ -95,4 +95,37 @@ justify-content: space-between;
     height: 33%;
     padding: 10px;
     text-align: center;
+    
+}
+
+.cajaArte img{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;    
+}
+
+.cajaArte img {
+    
+    width: 100%;
+    height: 100%;
+    transition: all 750ms ease-out;
+}
+
+.cajaArte img:hover{
+    transform: scale(115%);
+}
+
+.museo{
+
+    width: 33%;
+    height: 33%;
+    padding: 10px;
+    text-align: center;
+    
+}
+.museo img{
+
+
+    border-radius: 10px;    
 }
