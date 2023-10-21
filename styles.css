@@ -184,3 +184,12 @@ background-color:rgb(225, 230, 235);
 
     border-radius: 10px;    
 }
+.maps{
+    display: grid;   
+     
+}
+
+/*Responsive*/
+@media (max-width:800px){
+    
+}
