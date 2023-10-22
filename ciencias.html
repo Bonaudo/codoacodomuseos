@@ -13,13 +13,29 @@
         href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
 </head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museos CABA</title>
+    <link rel="shortcut icon" href="/codoacodomuseos/Assets/museo.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;600&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
 
 <body>
     <header>
         <div>
-            <h1>TOP 3 MUSEOS DE CIENCIAS</h1>
+            <h1 class="titulo">TOP 3 MUSEOS DE CIENCIA</h1>
         </div>
         <nav>
+            <img class="logo" src="./assets/Logo_redondeado.jpg">
             <ul>
                 <li><a href="./index.html">Inicio - </a></li>
                 <li class="dropdown"> Museos -
@@ -35,11 +51,32 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <section class="containerarte">
+        <div class="cajaArte"> 
+            <h3 class="titulo2">Museo de Ciencias Naturales</h3>
+            <p class="subtitulo">El Museo Argentino de Ciencias Naturales Bernardino Rivadavia es uno de los principales museos de ciencias naturales del país.</p> 
+            <a href="MNBA.html"> <img clase="portada" src="./assets/ciencias/Ciencias-frente.png" alt="Museo Nacional de Ciencias Naturales"></a>
+        </div>
 
-    </main>
-    <footer>
-    </footer>
+       <div class="cajaArte">
+        <h3 class="titulo2">Planetario Galileo Galilei</h3>
+        <p class="subtitulo">Es el espacio para la difusión y el aprendizaje del conocimiento científico-astronómico dentro del Parque Tres de Febrero.</p>
+        <a href="MACBA.html"><img clase="portada" src="./assets/ciencias/planetario_portada.jpg" alt="Museo de Arte Contemporáneo"></a>
+        </div>
+
+        <div class="cajaArte">
+            <h3 class="titulo2">Centro Cultural de la Ciencia</h3>
+            <p class="subtitulo">Es un espacio interdisciplinario de creación e intercambio de ideas y saberes sobre la ciencia entendida como parte de la cultura. </p>
+            <a href="MAMBA.html"><img src="./assets/ciencias/centro_cultural.jpg" alt="Centro Cultural de la Ciencia"></a>
+        </div>
+    </section>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio - </a></li>
+            <li><a href=#>Contacto - </a></li>
+            <li><a href=#>Nosotros</a></li>
+        </ul>
+    </nav>
 </body>
 
 </html>

@@ -69,9 +69,23 @@ ul{
 
 }
 
+.logo{
+    position: absolute;
+    top: 5rem; /* Ajusta la posición vertical  */
+    left: 5rem; /* Ajusta la posición horizontal  */
+    z-index: 0rem; /* Asegura que la imagen del logo esté sobre la imagen del Obelisco */
+    width: 10rem;
+    border: solid 1px black;
+}
 header img{
     width: 100%;
     max-height: 470px;
+}
+
+.titulo2{
+    text-align: center;
+    padding: 10px 1px 3px 1px;
+    color: #293466;
 }
 
 .contenedorppal{
@@ -87,7 +101,7 @@ header img{
         box-sizing: border-box;
         width: 300px;
         max-height: 250px;
-        margin: 5px 2px 2px 2px;
+        margin: 10px 2px 2px 2px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -140,7 +154,9 @@ display: inline-flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
-background-color:rgb(225, 230, 235);
+background-color:rgb(248, 250, 252);
+padding: 10px;
+color: #293466;
 
 }
 
@@ -149,15 +165,23 @@ background-color:rgb(225, 230, 235);
     width: 33%;
     height: 33%;
     padding: 10px;
-    text-align: center;
-    
+    text-align: center;   
+    border: 2px solid #ef7e20;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
 }
 
+.subtitulo{
+    padding: 20px;
+}
 .cajaArte img{
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 20px;    
+    border-radius: 20px; 
+    border: 1px solid #293466;  
 }
 
 .cajaArte img {
@@ -168,7 +192,7 @@ background-color:rgb(225, 230, 235);
 }
 
 .cajaArte img:hover{
-    transform: scale(115%);
+    transform: scale(110%);
 }
 
 .museo{
