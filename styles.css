@@ -184,11 +184,23 @@ background-color:rgb(225, 230, 235);
 
     border-radius: 10px;    
 }
+
 .maps{
-    display: grid;   
-     
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;  
+
 }
 
+.maps h4{
+    position: relative;
+    grid-column-start: 2;
+}
+
+.maps iframe{
+    position: relative;
+    grid-column-start: 2;
+}
 /*Responsive*/
 @media (max-width:800px){
     
