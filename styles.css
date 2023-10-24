@@ -254,15 +254,48 @@ color: #293466;
 
 .maps h4{
     position: relative;
-    grid-column-start: 2;
+    grid-column-start: 1;
     
 }
 
 .maps iframe{
     position: relative;
+    grid-column-start: 1;
+}
+.maps p{
+
     grid-column-start: 2;
+    grid-column-end: 4;
 }
 /*Responsive*/
-@media (max-width:800px){
-    
+@media screen and (min-width:640px) and (max-width:1280px){
+
+    .cajaArte{
+
+    width: 50%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;   
+    border: 2px solid #ef6e1e;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+}
+
+@media screen and (max-width:640px){
+
+    .cajaArte{
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;   
+    border: 2px solid #ef6e1e;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
 }
