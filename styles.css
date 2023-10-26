@@ -422,12 +422,14 @@ form { width: 40%;
         width: 80%;
         padding:10px;
         margin-bottom: 10px;
+        border-radius: 5px;
         border: solid black 2px;
         background-color: antiquewhite;
     }
     form .boton {
         width: 80%;
         border: none;
+        border-radius: 5px;
         padding: 10px;
         margin-top: 10px;
         font-family:'Abel', sans-serif;
@@ -436,13 +438,14 @@ form { width: 40%;
     
     form .boton:hover {
         border:solid black 1px;
+        border-radius: 5px;
     }
     
     section {
        display: flex; justify-content: space-around;
     }
     
-    .Mapa { width: 40%;
+/*    .Mapa { width: 40%;
         margin: auto;
         margin-top: 100px;
         margin-bottom: 100px;
@@ -451,6 +454,6 @@ form { width: 40%;
     iframe { width:100%;
        
     }
-    
+    */
     
       
