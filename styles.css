@@ -395,3 +395,62 @@ color: #1f2950;
         margin-bottom: 10px;    
             }
 }
+
+
+/*FORMULARIO*/
+
+/* FORMULARIO */
+
+form { width: 40%;
+    background-color: #d8e8eb71;
+    color: black;
+    padding: 30px;
+    margin: auto;
+/*    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+  */  border-radius: 5px;
+    font-family: 'Abel', sans-serif;
+    }
+    
+    form h1 {color:rgb(0, 0, 0)}
+    form p {margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    .control{
+        width: 80%;
+        padding:10px;
+        margin-bottom: 10px;
+        border: solid black 2px;
+        background-color: antiquewhite;
+    }
+    form .boton {
+        width: 80%;
+        border: none;
+        padding: 10px;
+        margin-top: 10px;
+        font-family:'Abel', sans-serif;
+        font-size: 20px;
+    }
+    
+    form .boton:hover {
+        border:solid black 1px;
+    }
+    
+    section {
+       display: flex; justify-content: space-around;
+    }
+    
+    .Mapa { width: 40%;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 100px;
+    }
+    iframe { width:100%;
+       
+    }
+    
+    
+      
