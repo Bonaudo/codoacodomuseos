@@ -7,8 +7,8 @@
 
 .titulo{
     font-size: 23px;
-    padding-left: 12rem;
-    padding-bottom: 2rem;
+    padding-left: 25rem;
+    padding-bottom: 1rem;
     padding-top:1rem;
     border-top: solid 3px #3d403b;
 }
@@ -289,10 +289,10 @@ color: #1f2950;
     color: white;
 }
 /*Responsive*/
-/*
-@media screen and (min-width:640px) and (max-width:1280px){
 
-    .cajaArte{
+@media screen and (min-width:640px) and (max-width:1200px){
+
+.cajaArte{
 
     width: 50%;
     height: 50%;
@@ -304,7 +304,45 @@ color: #1f2950;
     margin-bottom: 30px;
 
 }
-}*/
+.logo{
+    opacity: 0;
+        
+    }
+.titulo{
+    font-size: 20px;
+    padding-left: 12rem;
+    padding-bottom: 1rem;
+    padding-top:1rem;
+    border-top: solid 3px #3d403b;
+    }
+    .museo{
+        width: 50%;
+        height: 50%;
+        padding: 10px;  
+              }  
+    .maps{
+        display: grid;
+        grid-template-columns: 50% 50%;  
+            }
+            
+    .maps h4{
+        position: relative;
+        grid-column-start: 1;
+        padding-left: 150px;
+            }
+            
+    .maps iframe{
+        position: relative;
+        grid-column-start: 1;
+        padding: 10px;
+                
+            }
+            
+    .maps p{
+        grid-column-start: 2;
+        margin-bottom: 10px;
+            }
+}
 
 @media screen and (max-width:640px){
 
@@ -317,6 +355,43 @@ color: #1f2950;
     border-radius: 20px;
     margin-top: 20px;
     margin-bottom: 30px;
+          }
 
-}
+    .logo{
+        opacity: 0;
+        }
+    
+    .titulo{
+        font-size: 18px;
+        padding-left: 10rem;
+        padding-bottom: 1rem;
+        padding-top:1rem;
+        border-top: solid 3px #3d403b;
+        }
+    .museo{
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        text-align: center;   
+            }
+    .maps{
+        display: grid;
+            }
+                    
+    .maps h4{
+        position: relative;
+        grid-row-start: 1;
+        padding-left: 10rem;
+            }
+                    
+    .maps iframe{
+        position: relative;
+        grid-row-start: 1;
+        padding-top: 50px;
+                        
+            }
+    .maps p{
+        
+        margin-bottom: 10px;    
+            }
 }
