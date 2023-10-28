@@ -458,6 +458,8 @@ form { width: 40%;
     
 
     .horarios{
-        display: block;
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 12;
         margin-top: auto;
     }
