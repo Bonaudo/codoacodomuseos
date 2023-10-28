@@ -270,7 +270,7 @@ color: #1f2950;
     position: relative;
     grid-column-start: 1;
     padding: 10px;
-    iframe  width:100%;    
+    width:100%;    
 }
 
 .maps p{
