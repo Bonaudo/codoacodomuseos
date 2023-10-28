@@ -457,7 +457,7 @@ form { width: 40%;
     */
     
 
-    #horarios{
+    .horarios{
         display: block;
         margin-top: auto;
     }
