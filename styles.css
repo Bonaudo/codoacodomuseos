@@ -460,9 +460,5 @@ form { width: 40%;
     .horarios{
         display: block;
         margin-top: auto;
-    }
-      
-
-    .mapaevita{
-        !important align-items: center ;
+        align-items: center;
     }
