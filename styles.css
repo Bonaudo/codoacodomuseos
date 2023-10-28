@@ -457,7 +457,7 @@ form { width: 40%;
     */
     
 
-    .horarios{
+    /*.horarios{
         display: grid;
         grid-column-start: 2;
         grid-column-end: 12;
