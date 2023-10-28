@@ -462,6 +462,6 @@ form { width: 40%;
         grid-column-start: 2;
         grid-column-end: 12;
         grid-row-start: 1;
-        grid-row-end: 12;
+        grid-row-end: 10;
         margin-top: auto;
     }
