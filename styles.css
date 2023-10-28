@@ -465,5 +465,5 @@ form { width: 40%;
 
     .mapaevita{
         display: block;
-        align-items: center;
+        !important align-items: center ;
     }
