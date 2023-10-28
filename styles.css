@@ -459,10 +459,10 @@ form { width: 40%;
 
     .horarios{
         display: grid;
-        grid-column-start: 2;
+        grid-column-start: 3;
         grid-column-end: 12;
         grid-row-start: 1;
         grid-row-end: 10;
-        margin-top: auto;
-        padding: 25px;
+      /*  margin-top: auto;*/
+        padding: 10px;
     }
