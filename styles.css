@@ -268,7 +268,7 @@ color: #1f2950;
 
 .maps iframe{
     position: relative;
-/*grid-column-start: 1;*/
+grid-column-start: 1;
     padding: 10px;
     width:100%;    
 }
