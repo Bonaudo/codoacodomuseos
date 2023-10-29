@@ -149,7 +149,7 @@ header img{
     }
 
     .fotoarte{
-        background-image: linear-gradient(to bottom,rgb(0 0 0 / .3), rgb(0 0 0 / .5)), url(./assets/ArteArteArte);
+        background-image: linear-gradient(to bottom,rgb(0 0 0 / .3), rgb(0 0 0 / .5)), url(./Assets/ArteArteArte.jpg);
         background-size: cover;
         background-position: center;
     }
