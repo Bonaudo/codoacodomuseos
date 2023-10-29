@@ -149,7 +149,7 @@ header img{
     }
 
     .fotoarte{
-        background-image: linear-gradient(to bottom,rgb(0 0 0 / .3), rgb(0 0 0 / .5)), url(./assets/dna.jpg);
+        background-image: linear-gradient(to bottom,rgb(0 0 0 / .3), rgb(0 0 0 / .5)), url(./assets/ArteArteArte);
         background-size: cover;
         background-position: center;
     }
