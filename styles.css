@@ -474,6 +474,11 @@ form { width: 40%;
         border:solid black 1px;
         border-radius: 5px;
     }
+
+
+    .formulario{
+        width: 100%;
+    }
     
     section {
        display: flex; justify-content: space-around;
