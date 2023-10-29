@@ -195,7 +195,24 @@ header img{
     margin: 10px;
 }
 
-/*Styles Artes*/
+/*Styles Museos*/
+
+.nombre-museo{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3{
+    margin: 30px;
+}
+
+h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
 .containerarte{
 
