@@ -480,5 +480,7 @@ form { width: 40%;
         grid-column-end: 12;
         grid-row-start: 1;
         grid-row-end: 10;
-        margin-top: auto;
+      /*  margin-top: auto;*/
+        padding-left: 35px;
+        padding-top: 15px;
     }
