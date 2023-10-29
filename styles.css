@@ -199,7 +199,7 @@ header img{
 
 .nombre-museo{
     text-align: center;
-    font-size: 32px;
+    font-size: 30px;
     margin-top: 50px;
     margin-bottom: 40px;
     font-family: 'Roboto', sans-serif;
@@ -304,6 +304,12 @@ grid-column-start: 1;
 .otrosMuseos a{
     text-decoration: none ;
     color: white;
+}
+
+.contenedorNosotros{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
 }
 /*Responsive*/
 
@@ -411,7 +417,17 @@ grid-column-start: 1;
         
         margin-bottom: 10px;    
             }
+
+            .contenedorNosotros{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-flow: row wrap;
+                margin: 5px;
+            }
 }
+
+
 
 
 /*FORMULARIO*/
@@ -484,3 +500,4 @@ form { width: 40%;
         padding-left: 35px;
         padding-top: 15px;
     }
+
