@@ -433,11 +433,13 @@ grid-column-start: 1;
 
 /*FORMULARIO*/
 
-/* FORMULARIO */
-
-form .formulario{
+form{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+form .formulario{
+
     width:62%;
     padding: 30px 40px;
  
