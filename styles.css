@@ -335,6 +335,12 @@ nav li{
     text-align: center;
 }
 
+.dropdown{
+    margin:1px;
+    font-size: 15px;
+    text-align: center;
+}
+
 .horarios{
     width: 20%;
 }
