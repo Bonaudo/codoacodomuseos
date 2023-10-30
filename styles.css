@@ -334,6 +334,10 @@ nav li{
     font-size: 15px;
     text-align: center;
 }
+
+.horarios{
+    width: 100%;
+}
 .logo{
     opacity: 0;
         
