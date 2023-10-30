@@ -473,7 +473,7 @@ form .formulario{
  }
  
  .formulario_input:focus{
-     box-shadow: 0 0 5px red;
+     box-shadow: 0 0 5px #ef6e1e;
  }
  .formulario_validacion-estado{
      position:absolute;
@@ -506,7 +506,7 @@ form .formulario{
      display:none;
      padding: 15px;
      text-align:center;
-     background: red;
+     background: #ef6e1e;
      border-radius: 10px;
  }
  .formulario_mensaje-activo, .formulario_mensaje-exitoso-activo, .formulario_input-error-activo {
@@ -519,7 +519,7 @@ form .formulario{
  }
  .formulario_btn{
      padding:15px 35px;
-     background:red;
+     background:#ef6e1e;
      color:  #fff;
      border:none;
      border-radius:10px;
