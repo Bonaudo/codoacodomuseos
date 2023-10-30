@@ -432,6 +432,13 @@ grid-column-start: 1;
 
 
 /*FORMULARIO*/
+@media screen and (max-width:720px){
+    #contacto .informacion{
+       width:100%;
+       grid-template-columns:1fr;
+       
+   }}
+
 form .formulario{
     width:62%;
     padding: 30px 40px;
@@ -534,7 +541,7 @@ form .formulario{
      padding:10px 0;
      text-align:center;
  }
- /*---------Validacion---*/
+ /* Validacion */
  .formulario_grupo-correcto .formulario_validacion-estado{
      color: green;
      opacity: 1;
