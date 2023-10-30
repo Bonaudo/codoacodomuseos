@@ -436,6 +436,8 @@ grid-column-start: 1;
 /* FORMULARIO */
 
 form .formulario{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width:62%;
     padding: 30px 40px;
  
