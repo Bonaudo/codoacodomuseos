@@ -314,7 +314,7 @@ grid-column-start: 1;
 }
 /*Responsive*/
 
-@media screen and (min-width:340px) and (max-width:1200px){
+@media screen and (min-width:640px) and (max-width:1200px){
 
 .cajaArte{
 
@@ -329,17 +329,7 @@ grid-column-start: 1;
 
 }
 
-nav li{
-    margin:5px;
-    font-size: 15px;
-    text-align: center;
-}
 
-
-
-.horarios{
-    width: 20%;
-}
 .logo{
     opacity: 0;
         
@@ -381,7 +371,19 @@ nav li{
             }
 }
 
-@media screen and (max-width:640px){
+@media screen and (max-width:340px){
+
+    nav li{
+        margin:5px;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    
+    
+    .horarios{
+        width: 100%;
+    }
 
     .cajaArte{
     width: 100%;
