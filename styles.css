@@ -333,6 +333,10 @@ nav li{
     text-align: center;
 }
 
+nav li .dropdown-content{
+    font-size: 12px;
+}
+
 .logo{
     opacity: 0;
         
