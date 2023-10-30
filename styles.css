@@ -383,6 +383,7 @@ grid-column-start: 1;
     
     .horarios{
         width: 100%;
+        border-left: -2px;
     }
 
     .cajaArte{
