@@ -76,14 +76,12 @@ const expresiones= {
 	nombre:     /^[a-zA-ZÀ-ÿ`\s`] {1,40}$/,
 	email:    /^[a-zA-Z0-9._+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono:  /^\d {7,14}$/,
-	sucursal:/^[a-zA-ZÀ-ÿ`\s`] {1,40}$/,
 	comentario: /^[a-zA-ZÀ-ÿ`\s`] {1,40}$/
 }
 const campos={
 	nombre:false,
 	email:false,
 	telefono:false,
-	sucursal:false,
 	comentario:false,
 }
 const validarFormulario = (e) =>{
@@ -96,9 +94,6 @@ const validarFormulario = (e) =>{
 		break;
 		case"telefono":
 		    validarCampo(expresiones.telefono, e.target, "telefono"); 
-		break;
-		case"sucursal":
-		    validarCampo(expresiones.sucursal, e.target, "sucursal"); 
 		break;
 		case"comentario":
 		    validarCampo(expresiones.comentario, e.target, "comentario"); 
@@ -143,7 +138,7 @@ function handleSubmit(e){;
 	
 	const $terminos = document.getElementById("terminos");
 
-	if (campos.nombre && campos.email && campos.telefono && campos.sucursal && campos.comentario && $terminos.checked) {
+	if (campos.nombre && campos.email && campos.telefono && campos.comentario && $terminos.checked) {
 		document.getElementById("formulario_mensaje-exitoso").classList.add("formulario_mensaje-exitoso-activo");
 
 
