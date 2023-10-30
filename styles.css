@@ -371,20 +371,7 @@ grid-column-start: 1;
             }
 }
 
-@media screen and (max-width:340px){
-
-    nav li{
-        margin:5px;
-        font-size: 15px;
-        text-align: center;
-    }
-    
-    
-    
-    .horarios{
-        width: 100%;
-        border-left: -2px;
-    }
+@media screen and (max-width:640px){
 
     .cajaArte{
     width: 100%;
