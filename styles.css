@@ -332,6 +332,7 @@ grid-column-start: 1;
 nav li{
     margin:5px;
     font-size: 15px;
+    text-align: center;
 }
 .logo{
     opacity: 0;
