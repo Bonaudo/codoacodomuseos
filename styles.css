@@ -475,10 +475,6 @@ form { width: 40%;
         border-radius: 5px;
     }
     
-    section {
-       display: flex; justify-content: space-around;
-    }
-    
 /*    .Mapa { width: 40%;
         margin: auto;
         margin-top: 100px;
