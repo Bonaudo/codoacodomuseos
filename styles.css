@@ -338,7 +338,7 @@ nav li .dropdown-content{
 }
 
 .logo{
-    opacity: 0;
+    visibility: hidden;
         
     }
 .titulo{
