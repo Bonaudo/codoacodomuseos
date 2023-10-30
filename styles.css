@@ -348,8 +348,7 @@ grid-column-start: 1;
               }  
     .maps{
         display: grid;
-        /*grid-template-columns: 50% 50%;*/  
-        width: 100%;
+        grid-template-columns: 50% 50%; 
             }
             
     .maps h4{
