@@ -1,39 +1,46 @@
-const nombre = document.getElementById("name");
-const email = document.getElementById("email");
-const telefono = document.getElementById("phone-number");
-const message = document.getElementById("form-message");
-const form = document.getElementById("form");
-const advertencia = document.getElementById("warnings");
+function validarFormulario(event) {
+    var nombre = document.getElementById("Nombre").value;
+    var correo = document.getElementById("mail").value;
+    var edad = document.getElementById("Edad").value;
+    var telefono = document.getElementById("Telefono").value;
+    var mensaje = document.getElementById("Mensaje").value;
+    var errorMensaje = document.getElementById("error-message");
 
-form.addEventListener("submit", e=>{
-    e.preventDefault();
-    let warnings = "";
-    let condicion = true;
-    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-    if(nombre.value.length < 6){
-        warnings += `El nombre es muy corto <br>`;
-        condicion = false;
+    // Validar que en las áreas de texto solo se ingresen letras
+    if (!contieneSoloLetras(nombre)) {
+        document.getElementById("Nombre").style.backgroundColor = "lightcoral";
+        event.preventDefault(); // Evitar el envío si hay errores
+        return false;
+    } else {
+        document.getElementById("Nombre").style.backgroundColor = "white";
     }
-    if(!regexEmail.test(email.value)){
-        warnings += `El email no es válido <br>`;
-        condicion = false;
+
+    // Validar que en las áreas de números solo se ingresen números
+    if (!contieneSoloNumeros(edad) || !contieneSoloNumeros(telefono)) {
+        document.getElementById("Edad").style.backgroundColor = "lightcoral";
+        document.getElementById("Telefono").style.backgroundColor = "lightcoral";
+        event.preventDefault(); // Evitar el envío si hay errores
+        return false;
+    } else {
+        document.getElementById("Edad").style.backgroundColor = "white";
+        document.getElementById("Telefono").style.backgroundColor = "white";
     }
-    if (message.value.length < 15){
-        warnings += `El mensaje es muy corto <br>`;
-        condicion = false;
+
+    // Validar si algún campo está vacío y mostrar el mensaje de error
+    if (nombre === "" || correo === "" || edad === "" || telefono === "" || mensaje === "") {
+        errorMensaje.style.display = "block";
+        event.preventDefault(); // Evitar el envío si hay errores
+        return false;
+    } else {
+        // Si todos los campos son válidos, ocultar el mensaje de error
+        errorMensaje.style.display = "none";
     }
-    if(isNaN(telefono.value)){
-        warnings += `El teléfono no es un número <br>`;
-        condicion = false;
-    }
-    if(telefono.value.length != 11){
-        warnings += `El teléfono no es valido`;
-        condicion = false;
-    }
-    if (!condicion){
-        advertencia.innerHTML = warnings;
-    }
-    else{
-        advertencia.innerHTML = "Enviado";
-    }
-})
+}
+
+function contieneSoloLetras(texto) {
+    return /^[a-zA-Z\s]+$/.test(texto);
+}
+
+function contieneSoloNumeros(texto) {
+    return /^[0-9]+$/.test(texto);
+}
