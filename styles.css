@@ -477,6 +477,28 @@ input, textarea{
 .center-content{
     text-align: center;
 } 
+
+
+.error-message {
+    display: none;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    animation: titilar 1s infinite;
+    border: 2px solid transparent;
+    transition: border 0.5s;
+}
+
+@keyframes titilar {
+    0% {
+        box-shadow: 0 0 5px red;
+    }
+    100% {
+        box-shadow: none;
+    }
+}
+ 
     
 
     .horarios{
